@@ -18,7 +18,6 @@
 use crate::{Compact, Encode};
 use impl_trait_for_tuples::impl_for_tuples;
 use core::{mem, marker::PhantomData, num::*, ops::Range, time::Duration};
-use std::ops::RangeInclusive;
 use crate::alloc::boxed::Box;
 
 /// Items implementing `MaxEncodedLen` have a statically known maximum encoded size.
